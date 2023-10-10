@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>niciar Sesión o Registrarse</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Bienvenido</h1>
+    
+        <h2>Seleccione su rol:</h2>
+        <form id="rolForm">
+            <label>
+                <input type="radio" name="rol" value="estudiante"> Estudiante
+            </label>
+            <label>
+                <input type="radio" name="rol" value="docente"> Docente
+            </label>
+        </form>
+    
+        <div id="estudianteForm" style="display: none;">
+            <h2>Iniciar Sesión o Registrarse como Estudiante</h2>
+            <form id="estudianteLoginForm">
+                <label for="carnet">Número de Carnet:</label>
+                <input type="text" id="carnet" name="carnet" required>
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="estudiantePassword" name="password" required>
+                <br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    
+        <div id="docenteForm" style="display: none;">
+            <h2>Iniciar Sesión o Registrarse como Docente</h2>
+            <form id="docenteLoginForm">
+                <label for="inss">Número de INSS:</label>
+                <input type="text" id="inss" name="inss" required>
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="docentePassword" name="password" required>
+                <br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

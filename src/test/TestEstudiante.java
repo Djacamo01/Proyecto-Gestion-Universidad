@@ -3,7 +3,7 @@ package test;
 import java.util.Scanner;
 import objetos.Estudiante;
 
-public class TestEstudiante extends TestEmpleado {
+public class TestEstudiante extends testPersona {
     public static void agregarEstudiante(Scanner scanner) {
         Estudiante estudiante = new Estudiante();
         ingresarInformacionBasica(scanner, estudiante);
