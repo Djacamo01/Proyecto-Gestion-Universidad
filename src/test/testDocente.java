@@ -20,5 +20,9 @@ public class testDocente extends TestEmpleado {
         // Puedes continuar solicitando otros atributos específicos de Docente aquí.
 
         imprimirDetallesPersona(docente);
+
+
+        System.out.println("Horas Maximas:" + docente.getHorasSemanalesMaximas());
+        
     }
 }

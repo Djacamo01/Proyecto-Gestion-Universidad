@@ -35,5 +35,11 @@ public class TestEmpleado extends testPersona {
         // Puedes continuar solicitando otros atributos específicos de Empleado aquí.
 
         imprimirDetallesPersona(empleado);
+
+        System.out.println("Codigo INSS: " + empleado.getCodINSS());
+        System.out.println("Facultad Asiganada: " + empleado.getFacultad());
+        System.out.println("Salario Estipulado: "+empleado.getSalario());
+        System.out.println("Su Bonificacion:"+empleado.getBonificacion());
+
     }
 }
