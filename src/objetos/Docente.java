@@ -3,7 +3,7 @@ package objetos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Docente extends persona {
+public class Docente extends Empleado {
 
     private int horasSemanalesMaximas;
     private List<BloqueClase> bloquesDeClase;
